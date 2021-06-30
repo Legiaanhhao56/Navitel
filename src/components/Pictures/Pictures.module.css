@@ -1,0 +1,242 @@
+.MapPhone {
+    width: 800px;
+    height: auto;
+}
+
+.Logo {
+    width: 200px;
+    height: auto;
+}
+
+.DataBase {
+    width: 50px;
+    height: auto;
+}
+
+.Location {
+    width: 50px;
+    height: auto;
+}
+
+.Map {
+    width: 50px;
+    height: auto;
+}
+
+.RoadMap {
+    width: 50px;
+    height: auto;
+}
+
+.Search {
+    width: 50px;
+    height: auto;
+}
+
+.TwoPhones {
+    width: 320px;
+    height: 400px;
+}
+.Arrow {
+    width: 100%;
+    height: auto;
+}
+
+.Work {
+    width: 700px;
+    height: auto;
+}
+
+.LightBulb {
+    width: 40px;
+    height: auto;
+}
+
+.DidYouKnow36 {
+    width: 100%;
+    height: auto;
+}
+.DidYouKnow1 {
+    width: 100%;
+    height: auto;
+}
+.DidYouKnow3 {
+    width: 100%;
+    height: auto;
+}
+.DidYouKnow2 {
+    width: 100%;
+    height: auto;
+}
+.DidYouKnow4 {
+    width: 100%;
+    height: auto;
+}
+
+.Laura {
+    border-radius: 50%;
+    width: 180px;
+    height: 190px;
+    border: 3px solid #fff;
+}
+
+.Shahab {
+    border-radius: 50%;
+    width: 180px;
+    height: 190px;
+    border: 3px solid #fff;
+}
+
+.Testimonial {
+    max-width: 100%;
+    width: 70px;
+    height: auto;
+    margin-bottom: 15px;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+
+.MenAvatar {
+    max-width: 100%;
+    width: 70px;
+    height: auto;
+    margin-bottom: 15px;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+
+.LadyAvatar {
+    max-width: 100%;
+    width: 70px;
+    height: auto;
+    margin-bottom: 15px;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+
+.LeftArrow {
+    width: 40px;
+    height: auto;
+}
+
+
+/* Extra large devices (large laptops and desktops) */
+@media screen and (max-width: 1200px) {}
+
+
+/* Extra large devices (large laptops and desktops) */
+@media only screen and (max-width: 1024px) {
+    .Work {
+        width: 400px;
+    }
+
+    .Laura {
+        width: 160px;
+        height: 160px;
+    }
+    
+    .Shahab {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+
+/* Larges devices (laptops/ destops) */
+@media screen and (max-width: 992px) {
+    .Work {
+        width: 400px;
+    }
+
+    .LightBulb {
+        width: 30px;
+    }
+}
+
+
+/* Medium devices (landscape tablets) */
+@media screen and (max-width: 768px) {
+    .DataBase {
+        width: 30px;
+        height: auto;
+    }
+    
+    .Location {
+        width: 30px;
+        height: auto;
+    }
+    
+    .Map {
+        width: 30px;
+        height: auto;
+    }
+    
+    .RoadMap {
+        width: 30px;
+        height: auto;
+    }
+    
+    .Search {
+        width: 30px;
+        height: auto;
+    }
+
+    .Work {
+        width: 380px;
+        height: auto;
+    }
+
+    .LightBulb {
+        width: 30px;
+        height: auto;
+    }
+
+    .Laura {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .Shahab {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .Logo {
+        width: 120px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 420 and up ) */
+@media screen and (max-width: 420px) {
+
+    .Logo {
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    .Work {
+        width: 400px;
+    }
+
+    .LightBulb {
+        width: 25px;
+    }
+
+    .Laura {
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+    }
+    
+    .Shahab {
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+    }
+}
+
+

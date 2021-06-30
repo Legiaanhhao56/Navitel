@@ -1,0 +1,78 @@
+.ThreeTimesDay {
+    width: 160px;
+    height: auto;
+}
+
+.NinetyPercent {
+    width: 160px;
+    height: auto;
+}
+
+.FifthyPercent {
+    width: 160px;
+    height: auto;
+}
+
+.Dollars {
+    width: 160px;
+    height: auto;
+}
+
+.ShoppingList {
+    width: 160px;
+    height: auto;
+}
+
+.TwentyNine {
+    width: 160px;
+    height: auto;
+}
+
+.ThreeSixTimes {
+    width: 160px;
+    height: auto;
+}
+
+.HundredPercent {
+    width: 160px;
+    height: auto;
+}
+
+
+/* Extra large devices (large laptops and desktops) */
+@media screen and (max-width: 1200px) {}
+
+
+/* Larges devices (laptops/ destops) */
+@media screen and (max-width: 992px) {}
+
+
+/* Medium devices (landscape tablets) */
+@media screen and (max-width: 768px) {
+    .ThreeTimesDay,
+    .NinetyPercent,
+    .FifthyPercent,
+    .Dollars,
+    .ShoppingList,
+    .TwentyNine,
+    .ThreeSixTimes,
+    .HundredPercent {
+        width: 130px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 420 and up ) */
+@media screen and (max-width: 420px) {
+    .ThreeTimesDay,
+    .NinetyPercent,
+    .FifthyPercent,
+    .Dollars,
+    .ShoppingList,
+    .TwentyNine,
+    .ThreeSixTimes,
+    .HundredPercent {
+        width: 100px;
+    }
+}
+
+

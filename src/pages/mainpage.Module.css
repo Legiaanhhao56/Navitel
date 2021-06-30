@@ -1,0 +1,1552 @@
+.Container {
+    width: 100%;
+}
+
+.Content {
+    width: 100%;
+    /* height: 600px;
+    background-color: rgb(255, 255, 255); */
+}
+
+.Header {
+    background: url("././../images/background/Nimetu\ kujundus\ \(1\).png");
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.ImageContainer {
+    width: 100%;
+    height: 600px;
+}
+
+.LeftSideContainer {
+    width: 100%;
+}
+
+.Logo {
+    margin-left: 50px;
+}
+
+.TextContent {
+    position: absolute;
+    width: 100%;
+    top: 38%;
+    left: 55%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);    /*will center the content*/
+}
+
+.TitleBelowMedia {
+    display: none;
+}
+
+.TitleBelowMedia2 {
+    display: none;
+}
+
+.TextContent2 {
+    position: absolute;
+    width: 700px;
+    top: 80%;
+    left: 47%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);    /*will center the content*/
+}
+
+.Paragraph {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 23px;
+    word-spacing: 2px;
+    color: rgb(39, 39, 39)
+}
+
+.Title {
+    font-family: 'Grenze', serif;
+    font-weight: bold;
+    font-size: 55px;
+    padding-bottom: 20px;
+    word-spacing: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.TitleBelow {
+    font-family: 'Grenze', serif;
+    font-weight: bold;
+    font-size: 52px;
+    padding-bottom: 20px;
+    word-spacing: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.FleshArrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+
+
+/* How it works section  */
+.BottomContainer {
+    width: 65%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.DirectionArrow1 {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 260px;
+}
+
+.DirectionArrow2 {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 640px;
+}
+
+.DirectionArrow3 {
+    position: absolute;
+    margin-left: 1350px;
+    margin-top: 260px;
+}
+
+.HowItWorks {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Number {
+    margin-top: 10px;
+    font-size: 40px;
+    margin-left: -200px;
+    color: #cecccc;
+}
+
+.BoxContainer {
+    margin-top: 50px;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HowText {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Grenze', serif;
+    border-bottom: 3px solid #E6576B;
+    font-weight: bold;
+    color: #0021AC;
+
+}
+
+.HowTextNavi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Grenze', serif;
+    font-weight: bold;
+    color: #0021AC;
+
+}
+
+.TitleDidyouKnow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Grenze', serif;
+    font-weight: bold;
+    color: #0021AC;
+
+}
+
+.BoxLeft {
+    position: relative;
+    width: 320px;
+    height: 270px;
+    border: 3px solid #0021AC;
+    border-radius: 5px;
+}
+
+.BoxMiddle {
+    position: relative;
+    width: 320px;
+    height: 270px;
+    border: 3px solid #E6576B;
+    border-radius: 3px;
+}
+
+.BoxRight {
+    position: relative;
+    width: 320px;
+    height: 270px;
+    border: 3px solid #0021AC;
+    border-radius: 3px;
+}
+
+.BoxLeftcontent {
+    margin-top: 40px;
+}
+
+.P {
+    margin-top: 30px;
+    color: #0021AC;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.Pm {
+    margin-top: 30px;
+    color: #E6576B;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.IconLoacation {
+    position: relative;
+    display: inline-block;
+    background:rgb(242, 206, 206);
+    border-radius: 50%;
+    padding: 5% 0;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.Iconblue {
+    position: relative;
+    display: inline-block;
+    background:rgba(192, 217, 250, 0.344);
+    border-radius: 50%;
+    padding: 5% 0;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.DatabaseBox {
+    /* border-radius: 5px;
+    background-color: #646892;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.Arrow {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* How we work */
+.HowWeWork {
+    margin-top: 60px;
+    position: relative;
+    width: 100%;
+} 
+
+.HwwContainer {
+    text-align: center;
+}
+
+.BoxContainerWork {
+    margin-top: 50px;
+}
+
+.RightContentHowWeWork {
+    margin-top: 40px;
+}
+
+.HowTextContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.Why {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.How {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    /* justify-content: space-evenly; */
+}
+
+.What {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.IconContainer {
+    position: relative;
+    display: inline-block;
+    background:rgb(255, 255, 255);
+    border: 2px solid #0021AC;
+    border-radius: 50%;
+    padding: 2% 0;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    transition: 0.5s;
+}
+
+.IconContainer:hover {
+    background: #a3b2ee;
+    transition: 0.5s;
+}
+
+.IconContainerRed {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #E6576B;
+    border-radius: 50%;
+    padding: 2% 0;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    transition: 0.5s;
+}
+
+.IconContainerRed:hover {
+        background:rgb(242, 206, 206);
+        transition: 0.5s;
+}
+
+.WhyText {
+    margin-left: 40px;
+}
+
+.HowWorkText {
+    margin-left: 40px;
+}
+
+.WhatText {
+    margin-left: 40px;
+}
+
+.H3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #0021AC;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+
+}
+
+.H3red {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+    color:#E6576B;
+}
+
+.P1 {
+
+    font-size: 18px;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #969494;
+}
+
+/* About us */
+
+
+.AboutUSContainer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+
+.AboutUsLeftContent {
+    align-items: center;
+    height: 400px;
+    background-color: #0021AC;
+    border-radius: 20px;
+}
+
+.AboutUsRightContent {
+    align-items: center;
+    height: 400px;
+    background-color: #0021AC;
+    border-radius: 20px;
+}
+
+.ContText {
+    background-color: #0021AC;
+    border-radius: 20px;
+    width: 70%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(202, 200, 200);
+    font-family: 'Didact Gothic', sans-serif;
+    margin-top: 70px;
+
+}
+
+.ParaText {
+    padding: 30px;
+}
+
+.ParaImage {
+    font-size: 18px;
+}
+
+.ContTitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.Cont {
+    text-align: center;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-top: 20px;
+}
+
+.Name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* .ImageLaura {
+    padding-top: 70px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.ImgContLaura {
+    padding-top: 70px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ShahabBox {
+    padding-top: 70px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ShahabText {
+    text-align: center;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-top: 30px; 
+}
+
+/* Contact Section */
+
+.Contact {
+    background-color: #fcfcfc;
+    height: 500px;
+    font-family: 'Grenze', serif;
+}
+.ContactContainer {
+    margin-top: 100px;
+}
+
+form {
+    /* text-align: center; */
+    border-radius: 10px;
+    width: 80%;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.Form {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.NameInput {
+    margin-top: 50px;
+}
+
+
+input {
+    width: 80%;
+    padding: 8px 10px 9px 35px;
+    height: 35px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+textarea {
+    width: 80%;
+    padding: 8px 10px 9px 35px;
+    height: 120px;
+    border: 1px solid #b0b0b1;
+    border-radius: 10px;
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+
+.Submit {
+    background-color: #0021AC;
+    color: #fff;
+    line-height: 35px;
+    width: 40%;
+    height: 35px;
+    border: 1px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.ContactRightContent {
+    margin-top: 50px;
+}
+
+.ContactLeftContent {
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.ContactText {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.ContactPara {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+}
+
+.Info {
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin-top: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(114, 255, 253, 0.2), 0 5px 5px 0 rgba(138, 255, 249, 0.24);
+}
+
+.InfoText {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+footer {
+	height: 100px;
+	background: #0021AC;
+	clip-path: ellipse(60% 100% at 50% 100%);
+	transition: clip-path .5s ease;
+}
+
+.Copyright {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    padding-top: 20px;
+}
+
+
+/* Testimonials section */
+
+.Testimonials {
+    margin-top: 100px;
+}
+
+.TestimonialContent {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.Snippet {
+    font-family: 'Didact Gothic', sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    box-shadow: none !important;
+}
+
+.Snippet * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+blockquote {
+    height: 320px;
+    margin: 0;
+    display: block;
+    border-radius: 15px;
+    border: 2px solid #0021AC;
+    position: relative;
+    background-color: #fafafa;
+    padding: 30px 50px 65px 50px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 -50px;
+    line-height: 1.6rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+blockquote:before,
+blockquote:after {
+    font-family: 'FontAwesome';
+    content: "\201C";
+    position: absolute;
+    font-size: 50px;
+    opacity: 0.3;
+    font-style: normal;
+}
+
+blockquote:before {
+    top: 35px;
+    left: 20px;
+}
+
+blockquote:after {
+    content: "\201D";
+    right: 20px;
+    bottom: 35px;
+}
+
+.Author {
+    margin: 0;
+    text-align: center;
+}
+
+.H5BlockNote {
+    opacity: 0.8;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.SpanblockNoe {
+    font-weight: 400;
+    text-transform: none;
+    display: block;
+}
+
+.BlockNoteText {
+    font-size: 18px;
+}
+
+/* Did you know section */
+.DidYouKnow {
+    margin-top: 50px;
+    background: url('././../images/background/testimoniesbacground.png');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    background-attachment: fixed;
+}
+
+.DidyouKnowLeftBox,
+.DidyouKnowRightBox,
+.DidyouKnowLeftMiddleBox,
+.DidyouKnowRightMiddleBox,
+.DidyouKnowLeftLastBox,
+.DidyouKnowRightLastBox,
+.DidyouKnowLeftLast,
+.DidyouKnowRightLast {
+    display: flex;
+    margin-bottom: 50px;
+} 
+
+
+.StatisticP {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+}
+
+.Shopping {
+    margin-top: 30px;
+}
+
+.DownStat {
+    margin-top: 25px;
+}
+
+.Ninety {
+    margin-top: 30px;
+}
+
+.DidyouKnowBoxContainer {
+    margin-top: 50px;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* About us section */
+
+.ContentAboutUS {
+    margin-top: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.ButtonAboutus {
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Extra large devices (large laptops and desktops) */
+@media only screen and (max-width: 1200px) {
+
+    /* .BoxContainer {
+        width: 100%;
+    }  */
+
+    .BoxLeft {
+        width: 260px;
+        height: 235px;
+    }
+    
+    .BoxMiddle {
+        width: 260px;
+        height: 235px;
+    }
+    
+    .BoxRight {
+        width: 260px;
+        height: 235px;
+    }
+
+    .ImgContLaura {
+        padding-top: 40px;
+        width: 68%;
+    }
+
+    .ShahabBox {
+        padding-top: 40px;
+        width: 68%;
+    }
+
+    .AboutUsLeftContent {
+        height: 330px;
+    }
+    
+    .AboutUsRightContent {
+        height: 330px;
+    }
+
+    .ContText {
+        height: 290px;
+    }
+
+    .Copyright {
+        width: 30%;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops) */
+@media only screen and (max-width: 1024px) {
+
+    .TextContent {
+        width: 90%;
+        top: 40%;
+        left: 52%;
+    }
+
+    .TextContent2 {
+        width: 550px;
+        top: 75%;
+        left: 50%;
+    }
+
+    .Title {
+        font-size: 40px;
+    }
+
+    .TitleBelow {
+        font-size: 40px;
+    }
+
+    .BoxLeft {
+        width: 240px;
+        height: 220px;
+    }
+    
+    .BoxMiddle {
+        width: 240px;
+        height: 220px;
+    }
+    
+    .BoxRight {
+        width: 240px;
+        height: 220px;
+    }
+
+}
+
+
+
+/* Larges devices (laptops/ destops) */
+@media only screen and (max-width: 992px) {
+
+    .TextContent {
+        width: 600px;
+        top: 40%;
+        left: 45%;
+    }
+
+    .TextContent2 {
+        width: 550px;
+        top: 75%;
+        left: 55%;
+    }
+
+    .Title {
+        font-size: 50px;
+    }
+
+    .TitleBelow {
+        font-size: 35px;
+    }
+
+    .BoxLeft {
+        width: 190px;
+        height: 235px;
+    }
+    
+    .BoxMiddle {
+        width: 190px;
+        height: 235px;
+    }
+    
+    .BoxRight {
+        width: 190px;
+        height: 235px;
+    }
+
+    .HowText {
+        width: 50%;
+    }
+
+    .IconContainer {
+        height: 50px;
+        width: 57px;
+    }
+    
+    .IconContainerRed {
+        height: 50px;
+        width: 50px;
+
+    }
+
+    .P1 {
+        font-size: 15px;
+    }
+
+    .DidYouKnow {
+        height: 1000px;
+    }
+
+    .TitleDidyouKnow {
+        width: 30%;
+    }
+
+    .AboutUSContainer {
+        width: 75%;
+    }
+
+    .ImgContLaura {
+        padding-top: 40px;
+        width: 60%;
+    }
+
+    .ShahabBox {
+        padding-top: 40px;
+        width: 60%;
+    }
+
+    .AboutUsLeftContent {
+        height: 350px;
+    }
+    
+    .AboutUsRightContent {
+        height: 350px;
+    }
+
+    .HowTextNavi {
+        width: 80%;
+    }
+
+    .ContText {
+        width: 100%;
+        height: 300px;
+    
+    }
+
+    .Copyright {
+        width: 35%;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets) */
+@media only screen and (max-width: 768px) {
+
+    .Header {
+        background: url("././../images/background/ipad768x1024.png");
+        background-position: center center;
+        background-size: 100%;
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        height: 100vh;
+        
+    }
+
+    .Footer {
+        clip-path: ellipse(200% 100% at 50% 100%);
+    }
+
+    
+    .TextContent {
+        width: 90%;
+        top: 30%;
+        left: 52%;
+    }
+
+    .TextContent2 {
+        width: 450px;
+        top: 60%;
+        left: 35%;
+    }
+
+    .Title {
+        font-size: 40px;
+    }
+
+    .TitleBelow {
+        font-size: 40px;
+    }
+
+    .DidYouKnow {
+        height: 850px;
+    }
+
+    .DidyouKnowBoxContainer {
+        width: 95%;
+    }
+    
+    .TitleDidyouKnow {
+        width: 35%;
+    }
+
+    .Shopping {
+        margin-top: 15px;
+    }
+    
+    .DownStat {
+        margin-top: 15px;
+    }
+    
+    .Ninety {
+        margin-top: 10px;
+    }
+
+   
+
+    .BoxLeft {
+        width: 170px;
+        height: 180px;
+    }
+    
+    .BoxMiddle {
+        width: 170px;
+        height: 180px;
+    }
+    
+    .BoxRight {
+        width: 170px;
+        height: 180px;
+    }
+
+    .IconLoacation {
+        border-radius: 50%;
+        padding: 5% 0;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .Iconblue {
+        border-radius: 50%;
+        padding: 5% 0;
+        height: 50px;
+        width: 50px;
+    }
+
+    .DirectionArrow1 {
+        margin-left: 250px;
+        margin-top: 220px;
+    }
+    
+    .DirectionArrow2 {
+        margin-left: 250px;
+        margin-top: 420px;
+    }
+    
+    .DirectionArrow3 {
+        margin-left: 465px;
+        margin-top: 220px;
+    }
+
+    .P {
+        margin-top: 10px;
+    }
+
+    .HowText {
+        width: 40%;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .IconContainer {
+        height: 50px;
+        width: 57px;
+    }
+    
+    .IconContainerRed {
+        height: 50px;
+        width: 50px;
+
+    }
+
+    .H3 {
+        font-size: 15px;
+    
+    }
+    
+    .H3red {
+        font-size: 15px;
+    }
+
+    .AboutUsLeftContent {
+        height: 300px;
+    }
+    
+    .AboutUsRightContent {
+        height: 300px;
+    }
+    
+    .ContTitle {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .ContactRightContent {
+        margin-left: 0;
+    }
+    
+    .ContactLeftContent {
+        /* width: 80%; */
+        /* margin-top: 50px;
+        margin-left: 50px; */
+    }
+
+    .AboutUSContainer {
+        width: 70%;
+    }
+
+    .ContText {
+        width: 100%;
+        height: 300px;
+    
+    }
+
+    .AboutUsLeftContent {
+        height: 280px;
+    }
+    
+    .AboutUsRightContent {
+        height: 280px;
+    }
+
+    .ImgContLaura {
+        padding-top: 40px;
+        width: 48%;
+    }
+
+    .ShahabBox {
+        padding-top: 40px;
+        width: 48%;
+    }
+
+    .HowTextNavi {
+        width: 80%;
+    }
+    
+
+}
+
+@media only screen and (max-width: 740px) {
+
+    .Header {
+        background: url("././../images/background/mobile736x414\ \(1\).png");
+        background-position: center center;
+        background-size: 100%;
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        height: 100vh;
+        
+    }
+
+    .Logo {
+        margin-left: 12px;
+    }
+
+    .ContText {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 10px;
+        height: 300px;
+    
+    }
+
+    .AboutUsLeftContent {
+        height: 270px;
+    }
+    
+    .AboutUsRightContent {
+        height: 270px;
+    }
+
+    .BoxLeft {
+        width: 170px;
+        height: 200px;
+    }
+    
+    .BoxMiddle {
+        width: 170px;
+        height: 200px;
+    }
+    
+    .BoxRight {
+        width: 170px;
+        height: 200px;
+    }
+
+    .HowTextNavi {
+        width: 80%;
+    }
+
+    .TextContent {
+        width: 90%;
+        top: 40%;
+        left: 54%;
+    }
+    
+    .TextContent2 {
+        width: 375px;
+        top: 80%;
+        left: 49%;
+    }
+
+    .AboutUSContainer {
+        width: 70%;
+    }
+    
+    .Paragraph {
+        font-size: 18px;
+    }
+    
+    .Title {
+        font-size: 25px;
+        
+        }
+
+    .TitleBelow {
+        font-size: 24px;
+        margin-top: -10px;
+        padding-bottom: 20px;
+    }
+
+    .H3 {
+        font-size: 18px;
+    }
+    
+    .H3red {
+        font-size: 15px;
+    }
+    
+    .P1 {
+        font-size: 15px;
+     }
+
+     .Copyright {
+        width: 50%;
+    }
+
+    .TitleDidyouKnow {
+        width: 30%;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .ImgContLaura {
+        padding-top: 40px;
+        width: 48%;
+    }
+
+    .ShahabBox {
+        padding-top: 40px;
+        width: 48%;
+    }
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 420 and up ) */
+@media only screen and (max-width: 480px) {
+
+    .Header {
+        background: url("././../images/background/mobile414\ x736.png");
+        background-position: center center;
+        background-size: 100%;
+        /* background-attachment: fixed; */
+        background-repeat: no-repeat;
+        height: 100vh;
+        
+    }
+
+    .ImageContainer {
+        display: none;
+    }
+    .DirectionArrow1 {
+        display: none;
+    }
+
+    .DirectionArrow2 {
+        display: none;
+    }
+
+    .DirectionArrow3 {
+        display: none;
+    }
+
+    .TextContent {
+        width: 95%;
+        top: 30%;
+        left: 47%;
+        margin-left: 20px;
+    }
+
+    .TextContent2 {
+        width: 45%;
+        top: 56%;
+        left: 22%;
+        margin-left: 20px;
+    }
+
+    .Title {
+        font-size: 24px;
+        word-spacing: 2px;
+        margin-bottom: -10px;
+    }
+
+    .TitleBelow {
+        display: none;
+    }
+
+    .TitleBelowMedia {
+        display: inline-block;
+        font-family: 'Grenze', serif;
+        font-weight: bold;
+        font-size: 23px;
+        color: rgb(0, 0, 0);
+    }
+
+    .TitleBelowMedia2 {
+        display: inline-block;
+        font-family: 'Grenze', serif;
+        font-weight: bold;
+        font-size: 23px;
+        color: #E6576B;
+        margin-top: -12px;
+    }
+
+    .Paragraph {
+        /* text-align: justify; */
+        font-size: 16px;
+        word-wrap: break-word;
+        text-justify: inter-word;
+    }
+
+    .Logo {
+        margin-left: 20px;
+    }
+
+    
+
+    .HowItWorks {
+        margin-top: -60px;
+    }
+
+    .HowText {
+
+        width: 70%;
+        padding: 10px;
+        font-size: 25px;
+    
+    }
+
+    .Arrow {
+        display: none;
+    }
+
+    .BoxContainer {
+        width: 60%;
+    }
+
+    .BoxLeft {
+        margin-bottom: 20px;
+        width: 250px;
+        height: 180px;
+    }
+    
+    .BoxMiddle {
+        margin-bottom: 20px;
+        width: 250px;
+        height: 180px;
+    }
+    
+    .BoxRight {
+        margin-bottom: 20px;
+        width: 250px;
+        height: 180px;
+    }
+
+    .IconContainer {
+        padding: 2% 0;
+        height: 45px;
+        width: 45px;
+    }
+    
+    .IconContainerRed {
+        padding: 2% 0;
+        height: 45px;
+        width: 45px;
+    }
+
+    .WhyText {
+        margin-left: 20px;
+    }
+    
+    .HowWorkText {
+        margin-left: 20px;
+    }
+    
+    .WhatText {
+        margin-left: 20px;
+    }
+    
+    .H3 {
+        font-size: 15px;
+    }
+    
+    .H3red {
+        font-size: 15px;
+    }
+    
+    .P1 {
+        font-size: 13px;
+    }
+
+
+    .RightContentHowWeWork {
+        width: 90%;
+        margin-left: 15px;
+    }
+
+    .AboutUSContainer {
+        width: 70%;
+    }
+
+
+    .AboutUsLeftContent {
+        height: 270px;
+        margin-bottom: 20px;
+    }
+    
+    .AboutUsRightContent {
+        height: 270px;
+    }
+
+    .ContText {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 10px;
+        height: 580px;
+    
+    }
+
+    .ImageLaura {
+        margin-top: 20px;
+    }
+
+    .ImgContLaura {
+        padding-top: 30px;
+        width: 44%;
+    }
+
+    .ShahabBox {
+        padding-top: 30px;
+        width: 44%;
+    }
+
+    .HowTextNavi {
+        width: 80%;
+        font-size: 25px;
+    }
+
+    .Testimonials {
+        margin-top: 50px;
+    }
+
+    .Contact {
+        height: 950px;
+        position: relative;
+
+    }
+
+    .ContactContainer {
+        margin-top: 100px;
+    }
+
+    .ContactRightContent {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .ContactLeftContent {
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    /* Did you know section media query */
+    .TitleDidyouKnow {
+        width: 70%;
+        font-size: 25px;
+    }
+
+    
+
+    .DidYouKnow {
+        height: 1300px;
+    }
+
+    .DidyouKnowBoxContainer {
+        width: 100%;
+    }
+
+    .Shopping {
+        margin-top: 10px;
+    }
+    
+    .DownStat {
+        margin-top: 15px;
+    }
+    
+    .Ninety {
+        margin-top: 10px;
+    }
+    
+    .ContTitle {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .TestimonialContent {
+        width: 80%;
+    }
+
+    .Copyright {
+        width: 80%;
+    }
+
+    .BottomContainer {
+        width: 100%;
+    }
+
+    .ButtonAboutus {
+        width: 12%;
+    }
+    
+    
+}
+
+
