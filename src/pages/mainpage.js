@@ -216,7 +216,7 @@ export default function MainPage() {
                                         </div>
                                         <div className={styles["AleksandrsText"]}>
                                             <h3 className={styles["Name"]}>Aleksandrs Rebriks</h3>
-                                            <p>Co-Founder &#38; CTF</p>
+                                            <p>Co-Founder &#38; CTO</p>
                                         </div>
                                     </div>
                                 </div>
