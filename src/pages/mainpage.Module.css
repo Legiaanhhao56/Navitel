@@ -385,7 +385,7 @@
 
 
 .AboutUSContainer {
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -399,6 +399,14 @@
     background-color: #0021AC;
     border-radius: 20px;
 }
+
+.AboutUsCenterContent {
+    align-items: center;
+    height: 400px;
+    background-color: #0021AC;
+    border-radius: 20px;
+}
+
 
 .AboutUsRightContent {
     align-items: center;
@@ -455,14 +463,28 @@
 
 .ImgContLaura {
     padding-top: 70px;
-    width: 55%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
 
+.ImgAleksandrs {
+    padding-top: 70px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AleksandrsText {
+    text-align: center;
+    color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-top: 20px;
+}
+
 .ShahabBox {
     padding-top: 70px;
-    width: 55%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -471,7 +493,7 @@
     text-align: center;
     color: #fff;
     font-family: 'Didact Gothic', sans-serif;
-    margin-top: 30px; 
+    margin-top: 20px; 
 }
 
 /* Contact Section */
@@ -783,15 +805,24 @@ blockquote:after {
 
     .ImgContLaura {
         padding-top: 40px;
-        width: 68%;
+        width: 81%;
+    }
+
+    .ImgAleksandrs {
+        padding-top: 40px;
+        width: 81%;
     }
 
     .ShahabBox {
         padding-top: 40px;
-        width: 68%;
+        width: 81%;
     }
 
     .AboutUsLeftContent {
+        height: 330px;
+    }
+
+    .AboutUsCenterContent {
         height: 330px;
     }
     
@@ -922,15 +953,24 @@ blockquote:after {
 
     .ImgContLaura {
         padding-top: 40px;
-        width: 60%;
+        width: 69%;
+    }
+
+    .ImgAleksandrs {
+        padding-top: 40px;
+        width: 69%;
     }
 
     .ShahabBox {
         padding-top: 40px;
-        width: 60%;
+        width: 69%;
     }
 
     .AboutUsLeftContent {
+        height: 350px;
+    }
+
+    .AboutUsCenterContent {
         height: 350px;
     }
     
@@ -1096,6 +1136,10 @@ blockquote:after {
     .AboutUsLeftContent {
         height: 300px;
     }
+
+    .AboutUsCenterContent {
+        height: 300px;
+    }
     
     .AboutUsRightContent {
         height: 300px;
@@ -1129,6 +1173,10 @@ blockquote:after {
     .AboutUsLeftContent {
         height: 280px;
     }
+
+    .AboutUsCenterContent {
+        height: 280px;
+    }
     
     .AboutUsRightContent {
         height: 280px;
@@ -1136,12 +1184,17 @@ blockquote:after {
 
     .ImgContLaura {
         padding-top: 40px;
-        width: 48%;
+        width: 74%;
+    }
+
+    .ImgAleksandrs {
+        padding-top: 40px;
+        width: 74%;
     }
 
     .ShahabBox {
         padding-top: 40px;
-        width: 48%;
+        width: 74%;
     }
 
     .HowTextNavi {
@@ -1176,6 +1229,14 @@ blockquote:after {
     }
 
     .AboutUsLeftContent {
+        height: 270px;
+    }
+
+    .AboutUsCenterContent {
+        height: 270px;
+    }
+
+    .AboutUsCenterContent {
         height: 270px;
     }
     
@@ -1257,12 +1318,17 @@ blockquote:after {
 
     .ImgContLaura {
         padding-top: 40px;
-        width: 48%;
+        width: 77%;
+    }
+
+    .ImgAleksandrs {
+        padding-top: 40px;
+        width: 77%;
     }
 
     .ShahabBox {
         padding-top: 40px;
-        width: 48%;
+        width: 77%;
     }
 
 }
@@ -1440,6 +1506,11 @@ blockquote:after {
         height: 270px;
         margin-bottom: 20px;
     }
+
+    .AboutUsCenterContent {
+        height: 270px;
+        margin-bottom: 20px;
+    }
     
     .AboutUsRightContent {
         height: 270px;
@@ -1458,6 +1529,11 @@ blockquote:after {
     }
 
     .ImgContLaura {
+        padding-top: 30px;
+        width: 44%;
+    }
+
+    .ImgAleksandrs {
         padding-top: 30px;
         width: 44%;
     }

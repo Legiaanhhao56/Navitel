@@ -10,6 +10,7 @@ import WorkPicture from '../components/Pictures/Work';
 import LightBulb from '../components/Pictures/LightBulb';
 import Laura from '../components/Pictures/Laura';
 import Shahab from '../components/Pictures/Shahab';
+import Aleksandrs from '../components/Pictures/Aleksandrs';
 import MenAvatar from '../components/Pictures/MenAvatar';
 import LadyAvatar from '../components/Pictures/LadyAvatar';
 
@@ -206,6 +207,17 @@ export default function MainPage() {
                                                 <h3 className={styles["Name"]}>Laura Tillo</h3>
                                                 <p>Co-Founder &#38; CEO</p>
                                             </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div className={styles["AboutUsCenterContent"]}>
+                                        <div className={styles["ImgAleksandrs"]}>
+                                            <Aleksandrs/>
+                                        </div>
+                                        <div className={styles["AleksandrsText"]}>
+                                            <h3 className={styles["Name"]}>Aleksandrs Rebriks</h3>
+                                            <p>Co-Founder &#38; CTF</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-sm">
